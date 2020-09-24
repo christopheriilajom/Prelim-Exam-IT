@@ -1,0 +1,85 @@
+/*
+    background-color: #f3f3f3; // medyo white
+    background-color: #6ba2ce; // sky blue
+    color: white;
+    background-color: #a9d7e9; // medyo sky blue
+*/
+
+
+body{
+    background-color: #a9d7e9;
+}
+
+.headerDiv{
+    padding: 0;
+    margin: 10px;
+    text-align: center;
+    font-size: x-large;
+}
+
+.formDiv{
+    margin: 0 auto;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 1200px;
+}
+
+.formDiv p{
+    font-size: larger;
+    padding-top: 30px;
+}
+.formDiv input , .formDiv select{
+    padding: 10px;
+    border-radius: .5px;
+    border: 1px solid #f3f3f3;
+}
+
+.divName{
+    padding-top: 10px;
+}
+
+
+.divName,.divEmail,.divScale{
+    padding-bottom: 20px;  
+}
+
+.divPlace, .divTime, .divFeelings{
+    padding-bottom: 35px;
+}
+
+.divExp{
+    padding-bottom: 20px;
+}
+
+.formDiv input[type=submit]{
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    background-color: #6ba2ce;
+    color: white;
+    border-radius: 5px;
+}
+
+
+.divName label,
+ .divEmail label , .divScale label , .divPlace label, .divExp label{
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.divName input, .divEmail input , .divScale input , .divPlace select , .divExp textarea{
+    display: inline-block;
+    width: 250px;
+    height: auto;
+    padding-right: 10px;
+}
+
+.divTime input{
+    display: block;
+    height: auto;
+    padding-right: 10px;
+}
+

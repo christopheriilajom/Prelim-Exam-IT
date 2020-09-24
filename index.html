@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="8-utf">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link type="text/css" rel="stylesheet" href="CSS/index.css">
+        <!--
+                    <link href="https://fonts.gooleapis.com/css?family=Poppins" rel="stylesheet" type="text/css">
+        <link href="https://fonts.gooleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css">
+        <link href="https://fonts.gooleapis.com/css?family=Open+Sans+Condensed" rel="stylesheet" type="text/css">
+        -->
+
+        <title>Prelims</title>
+    </head>
+
+    <body>
+        <div class="headerDiv">
+           <h1>Survey Form</h1> 
+        </div>
+        
+        <div class="formDiv">
+            <form action="mailto:giofriginal26@gmail.com" method="POST">
+                <p>Answer the following questions correctly.</p>
+
+                <div class="divName">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your name" name="name">
+                </div>
+
+                <div class="divEmail"> 
+                <label>Email</label>
+                <input type="text" placeholder="Enter your name" name="email">
+                </div>
+
+                <div class="divScale">
+                <label>On a scale of 1-10, how good was it?</label>
+                <input type="number" placeholder="Enter a number between 1 and 10" name="scale-1to10">
+                </div>
+
+                <div class="divPlace">
+                    <label>Where did it happen?</label>
+                    <select id="place" name="place">
+                        <option value="At-Home">At home</option>
+                        <option value="At-School">At School</option>
+                        <option value="At-Playground">At Playground</option>
+                        <option value="At-Supermarket">At Supermarket</option>
+                    </select>
+                </div>
+
+                <div class="divTime">
+                    <label class="mainLabel">At what time of day did it happen?</label>
+                        <input type="radio" id="morning" name="time" value="morning">
+                            <label for="morning">Morning</label>
+                              <input type="radio" id="evening" name="time" value="afternoon">
+                            <label for="afternoon">Afternoon</label>
+                        <input type="radio" id="evening" name="time" value="evening">
+                            <label for="evening">Evening</label>
+        
+                </div>
+
+                <div class="divFeelings">
+                    <label class="mainLabel">What emotions did you experience?(Select all that apply)</label>
+                        <input type="checkbox" id="excited" name="emotions" value="excited">
+                            <label for="excited">Excited</label>
+                        <input type="checkbox" id="humbled" name="emotions" value="humbled">
+                            <label for="Humbled">Humbled</label>
+                        <input type="checkbox" id="elated" name="emotions" value="elated">
+                            <label for="elated">Elated</label>
+                        <input type="checkbox" id="loved" name="emotions" value="loved">
+                            <label for="loved">Loved</label>
+                        <input type="checkbox" id="enthusiastic" name="emotions" value="enthusiastic">
+                            <label for="enthusiastic">Enthusiastic</label>
+     
+                </div>
+
+                <div class="divExp">
+                    <label>Please describe your experience.</label>
+                        <textarea name="comment" placeholder="Enter your text here..."></textarea>
+                </div>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </body>
+
+</html>
